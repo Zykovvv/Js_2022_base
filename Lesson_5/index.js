@@ -127,3 +127,33 @@
 // }
 // const result  = calcValue (3,5);
 // console.log ()
+
+// PRACTICE
+
+// 1
+
+// const msgsAmount = 10;
+// const message = "Сообщение";
+
+// const showMessage = (msg, count) => {
+//     for (let i = 1; i <= count; i++){
+//     console.log(`${msg} ${i}`);
+//     }
+// };
+
+// showMessage(message, msgsAmount);
+
+// 2
+// const myChar = "с";
+
+// const isMyCharVowel = (char) => {
+//     const vowels = "аеёиоуыэюя";
+
+//     if (vowels.includes(char)) {
+//         return "Гласная";
+//     }
+//     return "Не гласная"
+// };
+
+// console.log (isMyCharVowel(myChar));
+
