@@ -92,9 +92,37 @@
 // console.log (myName);
 // console.log (myName.trim());// убирает пробелы по краям строки
 
-// const myString = "Widjet with id";
+// const myString = "Widget with id";
 
 // const idIndex = myString.indexOf ("id");
-// const newString = myString.slice(idIndex);
+// const newString = myString.slice (idIndex);
 
 // console.log (newString);
+
+
+// Практика
+
+// 1
+
+// const myFunc = (min, max) => {
+//     const result = Math.random() * (max - min) + min;
+//     return result.toFixed ();
+// };
+
+// console.log (myFunc (1, 20))
+
+
+// 2
+// const myStr = "строка";
+
+// const isCharBig = (str, pos) =>{
+//     if (str[pos]){
+//         return "Ошибка";
+//     }
+//     return str[pos];
+// };
+
+// console.log (isCharBig (myStr, 10));
+
+
+
